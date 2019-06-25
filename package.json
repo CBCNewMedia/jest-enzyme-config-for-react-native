@@ -31,6 +31,10 @@
     "testEnvironment": "enzyme",
     "testEnvironmentOptions": {
       "enzymeAdapter": "react16"
-    }
+    },
+    "testPathIgnorePatterns": [
+      "<rootDir>/.history/",
+      "<rootDir>/node_modules/"
+    ]
   }
 }
