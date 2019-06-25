@@ -25,6 +25,7 @@
   },
   "jest": {
     "preset": "react-native",
+    "collectCoverage": true,
     "setupFilesAfterEnv": [
       "jest-enzyme"
     ],
